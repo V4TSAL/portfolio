@@ -1,0 +1,71 @@
+.App{
+  font-family: 'Courier New', Courier, monospace;
+
+}
+.Navbar {
+  display: flex;
+  border-radius: 13px;
+  margin: 10px;
+  justify-content: right;
+}
+
+.Nav {
+  margin: 10px 100px 10px 10px;
+  color: #333; 
+  font-size: 20px;
+}
+
+.Nav:hover {
+  color: #ff6600; 
+  cursor: pointer;
+} 
+
+.MyDiscription{
+  display: flex;
+  flex-direction: column;
+}
+.My{
+  font-size: 70px;
+  margin: 50px 10px 0 100px;
+}
+.Small{
+  font-size: 20px;
+  margin: 0 0 0 100px ;
+}
+.BigDiv{
+  display: flex;
+  justify-content: space-evenly;
+}
+.imgg{
+  width: 500px;
+  height: 500px;
+  border-radius: 130px;
+  margin: 50px;
+}
+.resume-container{
+  height: 100px;
+}
+.downloadButton{
+  display: flex;
+  margin-top: 45px;
+  margin-left: 100px;
+  background-color: #ff6600; 
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: 900;
+
+}
+.downloadButton:hover{
+  background-color: bisque;
+}
+.main-resume-container{
+  display: flex;
+  justify-content: center;
+}
+.downloadText{
+  text-decoration: none;
+  font-size: 25px;
+  margin: 10px;
+
+}
